@@ -4,13 +4,12 @@ import CTASection from "@/components/CTASection";
 import WhyChooseUsHero from "@/components/why-choose-us/WhyChooseUsHero";
 import AboutOurTeam from "@/components/why-choose-us/AboutOurTeam";
 import SixReasonsGrid from "@/components/why-choose-us/SixReasonsGrid";
-import CompanyStatistics from "@/components/why-choose-us/CompanyStatistics";
 import ExpectationsSection from "@/components/why-choose-us/ExpectationsSection";
 import OurGuaranteeSection from "@/components/why-choose-us/OurGuaranteeSection";
 
 export const metadata = {
   title: "Why Choose Us | MZ Cleaners",
-  description: "Discover why hundreds of Manchester homes and businesses trust MZ Cleaners. 100% satisfaction guarantee, fully insured, and highly trained staff.",
+  description: "Discover why Manchester homes and businesses trust MZ Cleaners. Satisfaction guarantee, fully insured, and highly trained staff.",
 };
 
 export default function WhyChooseUsPage() {
@@ -20,13 +19,12 @@ export default function WhyChooseUsPage() {
       <WhyChooseUsHero />
       <AboutOurTeam />
       <SixReasonsGrid />
-      <CompanyStatistics />
       <ExpectationsSection />
       <OurGuaranteeSection />
       
       <CTASection 
-        title="Join Over 500 Happy Manchester Clients"
-        subtitle="Experience the MZ Cleaners difference for yourself. Get your free, no-obligation quote today we respond within 2 hours."
+        title="Ready for a Cleaner Home or Office"
+        subtitle="Experience the MZ Cleaners difference. Get your free, no-obligation quote today."
         primaryBtnText="Request a Free Quote"
         secondaryBtnText="Call Us Now"
         primaryBtnIcon={

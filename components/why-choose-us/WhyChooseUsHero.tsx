@@ -30,15 +30,15 @@ export default function WhyChooseUsHero() {
         </AnimateOnScroll>
         <AnimateOnScroll animation="fade-up" delay={100}>
           <p className="text-[16px] md:text-[18px] leading-[30.6px] text-white/90 max-w-2xl mx-auto">
-            We're not just a cleaning company — we're a team of dedicated professionals who genuinely care about every result we deliver. Here's why hundreds of Manchester homes and businesses trust us.
+            We're not just a cleaning company — we're a team of dedicated professionals who genuinely care about every result we deliver. Here's why local homes and businesses trust us.
           </p>
         </AnimateOnScroll>
         <AnimateOnScroll animation="fade-up" delay={200}>
           <div className="flex flex-wrap items-center justify-center gap-2 md:gap-3 mt-5 md:mt-8">
-            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">500+ Happy Clients</span>
-            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">5★ Average Rating</span>
-            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">100% Fully Insured</span>
-            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">5+ Years Experience</span>
+            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">Trusted by local homes and businesses</span>
+            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">Highly rated service</span>
+            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">Fully insured for your peace of mind</span>
+            <span className="px-5 py-2.5 rounded-full bg-white/12 border border-white/20 text-[13px] md:text-[14px] font-semibold text-white/90 backdrop-blur-[8px]">Experienced, professional team</span>
           </div>
         </AnimateOnScroll>
       </div>

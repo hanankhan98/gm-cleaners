@@ -35,7 +35,7 @@ const reasons = [
     icon: '⭐',
     title: 'Customer Satisfaction Guaranteed',
     description: 'We are not happy until you are happy. If anything falls short of your expectations, we return and put it right at zero extra cost. That is our promise to every client.',
-    bullets: ['100% satisfaction guarantee', 'Free return visit if needed', '5★ average customer rating']
+    bullets: ['Satisfaction guarantee', 'Free return visit if needed', 'Highly recommended by customers']
   },
   {
     id: '06',
@@ -62,7 +62,7 @@ export default function SixReasonsGrid() {
 
         {/* Heading */}
         <h2 className="font-plus-jakarta-sans font-bold text-[28px] md:text-[44px] tracking-[-0.88px] leading-[1.18] text-white max-w-[910px] mb-4 text-center md:text-left">
-          6 Reasons Manchester Chooses MZ Cleaners
+          Reasons Manchester Chooses MZ Cleaners
         </h2>
 
         {/* Subtitle */}
