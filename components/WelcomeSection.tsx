@@ -73,7 +73,7 @@ export default function WelcomeSection() {
                 </div>
                 <div className="flex flex-col justify-center">
                   <h4 className="font-plus-jakarta font-bold text-[15px] md:text-[17px] leading-none text-[#1C2D3E] mb-1 md:mb-2">
-                    500+ Happy Clients
+                    Happy Clients
                   </h4>
                   <p className="font-inter font-normal text-[12.5px] md:text-[13.5px] leading-tight md:leading-none text-[#4A6278]">
                     Trusted by homes & businesses across Manchester
