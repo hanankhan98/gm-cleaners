@@ -51,8 +51,8 @@ export default function ContactHero() {
             <a href="tel:+447535048548" className="flex items-center gap-2 px-6 py-3 rounded-full bg-[rgba(255,255,255,0.15)] backdrop-blur-md border border-[rgba(255,255,255,0.2)] hover:bg-[rgba(255,255,255,0.25)] transition-colors cursor-pointer">
               <span className="font-inter font-semibold text-white">+44 7535 048548</span>
             </a>
-            <a href="mailto:info@mzcleaners.co.uk" className="flex items-center gap-2 px-6 py-3 rounded-full bg-[rgba(255,255,255,0.15)] backdrop-blur-md border border-[rgba(255,255,255,0.2)] hover:bg-[rgba(255,255,255,0.25)] transition-colors cursor-pointer">
-              <span className="font-inter font-semibold text-white">info@mzcleaners.co.uk</span>
+            <a href="mailto:MzcleanersLtd@gmail.com" className="flex items-center gap-2 px-6 py-3 rounded-full bg-[rgba(255,255,255,0.15)] backdrop-blur-md border border-[rgba(255,255,255,0.2)] hover:bg-[rgba(255,255,255,0.25)] transition-colors cursor-pointer">
+              <span className="font-inter font-semibold text-white">MzcleanersLtd@gmail.com</span>
             </a>
             <a href="https://wa.me/447535048548" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 px-6 py-3 rounded-full bg-[rgba(255,255,255,0.15)] backdrop-blur-md border border-[rgba(255,255,255,0.2)] hover:bg-[rgba(255,255,255,0.25)] transition-colors cursor-pointer">
               <span className="font-inter font-semibold text-white">WhatsApp Us</span>
