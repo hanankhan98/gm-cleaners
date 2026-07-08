@@ -14,8 +14,8 @@ const options = [
     icon: '✉️',
     title: 'Email Us',
     desc: 'Send us an email anytime we respond to all enquiries within 2 business hours.',
-    value: 'info@mzcleaners.co.uk',
-    href: 'mailto:info@mzcleaners.co.uk',
+    value: 'MzcleanersLtd@gmail.com',
+    href: 'mailto:MzcleanersLtd@gmail.com',
     blue: true
   },
   {
