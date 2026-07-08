@@ -153,7 +153,7 @@ export default function ContactFormSection() {
                   </div>
                   <div>
                     <span className="font-inter text-[12px] tracking-[0.96px] uppercase text-[#8fa3b8] block">Email</span>
-                    <a href="mailto:info@mzcleaners.co.uk" className="font-inter font-semibold text-[15px] text-[#1c2d3e]">info@mzcleaners.co.uk</a>
+                    <a href="mailto:MzcleanersLtd@gmail.com" className="font-inter font-semibold text-[15px] text-[#1c2d3e]">MzcleanersLtd@gmail.com</a>
                   </div>
                 </div>
 
