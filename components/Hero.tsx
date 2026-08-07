@@ -44,8 +44,8 @@ export default function Hero() {
 
         {/* Subtitle Paragraph */}
         <p className="max-w-[760px] text-center font-inter font-normal text-[15px] sm:text-[17px] md:text-[19px] leading-relaxed md:leading-[32.68px] text-[rgba(255,255,255,0.85)] mb-10 px-4">
-          From spotless homes to pristine offices, MZ Cleaners delivers<br className="hidden md:block" />
-          reliable, high-quality cleaning services tailored to your needs<br className="hidden md:block" />
+          From spotless homes to pristine offices, MZ Cleaners delivers <br className="hidden md:block" />
+          reliable, high-quality cleaning services tailored to your needs <br className="hidden md:block" />
           across Manchester and Greater Manchester.
         </p>
 
