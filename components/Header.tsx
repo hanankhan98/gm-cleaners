@@ -39,20 +39,16 @@ export default function Header() {
   return (
     <header className="w-full sticky top-0 left-0 z-50 bg-white border-b border-[#edf1ef] shadow-sm font-inter">
       <div className="hidden lg:block">
-        <div className="max-w-[1440px] mx-auto h-[123px] px-8 xl:px-11 flex items-center justify-between">
+        <div className="max-w-[1440px] mx-auto h-[96px] px-8 xl:px-11 flex items-center justify-between">
           <div className="flex flex-col gap-2 text-[#0f4c81] font-bold text-[20px] leading-none">
-            <a href="tel:01780757575" className="flex items-center gap-3 hover:text-[#1a6daf] transition-colors">
+            <a href="tel:+447535048548" className="flex items-center gap-3 hover:text-[#1a6daf] transition-colors">
               <span className="text-[18px]" aria-hidden="true">☎</span>
-              <span>01780757575</span>
-            </a>
-            <a href="tel:01780484848" className="flex items-center gap-3 hover:text-[#1a6daf] transition-colors">
-              <span className="text-[18px]" aria-hidden="true">☎</span>
-              <span>01780484848</span>
+              <span>+447535048548</span>
             </a>
           </div>
 
           <Link href="/" className="flex items-center" aria-label="MZ Cleaners home">
-            <Image src="/logo.png" alt="MZ Cleaners" width={260} height={72} className="h-auto w-auto max-h-[72px] object-contain" priority />
+            <Image src="/logo.png" alt="MZ Cleaners" width={220} height={61} className="h-auto w-auto max-h-[61px] object-contain" priority />
           </Link>
 
           <Link href="/quote" className="flex items-center justify-center gap-3 w-[201px] h-[50px] bg-[#0f4c81] text-white text-[17px] font-bold hover:bg-[#0c3a63] transition-colors">
@@ -62,7 +58,7 @@ export default function Header() {
         </div>
 
         <div className="bg-[#f6f7f6] border-t border-[#f0f2f0]">
-          <div className="max-w-[1440px] mx-auto min-h-[59px] px-8 xl:px-11 flex items-center justify-between gap-8">
+          <div className="max-w-[1440px] mx-auto min-h-[48px] px-8 xl:px-11 flex items-center justify-between gap-8">
             <div className="flex items-center gap-3 shrink-0 text-[#0f4c81] text-[15px] font-medium">
               <span className="text-[22px]" aria-hidden="true">⌖</span>
               <span>Manchester, Great Manchester</span>
@@ -115,12 +111,12 @@ export default function Header() {
         </div>
       </div>
 
-      <div className="lg:hidden h-[72px] px-4 flex items-center justify-between">
+      <div className="lg:hidden h-[60px] px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image src="/logo.png" alt="MZ Cleaners" width={185} height={52} className="h-auto w-auto max-h-[52px] object-contain" priority />
+          <Image src="/logo.png" alt="MZ Cleaners" width={165} height={46} className="h-auto w-auto max-h-[46px] object-contain" priority />
         </Link>
         <div className="flex items-center gap-3">
-          <a href="tel:01780757575" className="flex items-center justify-center w-10 h-10 rounded-full bg-[#e8f1fa] text-[#0f4c81] text-[19px]" aria-label="Call MZ Cleaners">☎</a>
+          <a href="tel:+447535048548" className="flex items-center justify-center w-10 h-10 rounded-full bg-[#e8f1fa] text-[#0f4c81] text-[19px]" aria-label="Call MZ Cleaners">☎</a>
           <button onClick={() => setMenuOpen(!menuOpen)} aria-label={menuOpen ? "Close menu" : "Open menu"} className="relative w-8 h-8 flex items-center justify-center">
             <span className={`block w-6 h-[2.5px] bg-[#0f4c81] rounded-full absolute transition-all duration-300 ${menuOpen ? 'rotate-45' : '-translate-y-[5px]'}`}></span>
             <span className={`block w-6 h-[2.5px] bg-[#0f4c81] rounded-full absolute transition-all duration-300 ${menuOpen ? 'opacity-0' : ''}`}></span>
@@ -215,7 +211,7 @@ export default function Header() {
             </nav>
             <div className="mt-10 flex flex-col gap-4">
               <a
-                href="tel:01780757575"
+                href="tel:+447535048548"
                 className="flex items-center justify-center gap-2 h-[50px] rounded-[12px] border-2 border-white/30 text-white text-[16px] font-semibold hover:bg-white/10 transition-colors"
                 style={{
                   opacity: animateLinks ? 1 : 0,

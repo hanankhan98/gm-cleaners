@@ -1,5 +1,4 @@
 import React from "react";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Footer() {
@@ -14,7 +13,7 @@ export default function Footer() {
 
       <div className="relative z-10 w-full max-w-[1440px] mx-auto px-4 md:px-12 pt-20">
         <div className="flex flex-col md:flex-row justify-between pb-12 border-b border-white/10 gap-10 md:gap-4">
-          
+
           {/* Left Column: Brand & Socials */}
           <div className="flex flex-col items-center md:items-start max-w-[320px] mx-auto md:mx-0">
             <img src="/logo.png" alt="MZ Cleaners Logo" className="w-[147px] h-auto mb-6 brightness-0 invert" />
@@ -22,15 +21,33 @@ export default function Footer() {
               MZ Cleaners is a trusted professional cleaning company serving Manchester and Greater Manchester. We deliver outstanding residential and commercial cleaning services with reliability, care, and attention to detail.
             </p>
             <div className="flex items-center gap-3">
-              <Link href="#" className="w-10 h-10 bg-white/10 rounded-[10px] flex items-center justify-center text-white/75 hover:bg-white/20 transition-colors cursor-pointer">
+              <a
+                href="https://facebook.com/YOUR_PAGE"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="MZ Cleaners on Facebook"
+                className="w-10 h-10 bg-white/10 rounded-[10px] flex items-center justify-center text-white/75 hover:bg-white/20 transition-colors cursor-pointer"
+              >
                 <span className="font-bold text-[15px]">f</span>
-              </Link>
-              <Link href="#" className="w-10 h-10 bg-white/10 rounded-[10px] flex items-center justify-center text-white/75 hover:bg-white/20 transition-colors cursor-pointer">
+              </a>
+              <a
+                href="https://linkedin.com/company/YOUR_PAGE"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="MZ Cleaners on LinkedIn"
+                className="w-10 h-10 bg-white/10 rounded-[10px] flex items-center justify-center text-white/75 hover:bg-white/20 transition-colors cursor-pointer"
+              >
                 <span className="font-bold text-[15px]">in</span>
-              </Link>
-              <Link href="#" className="w-10 h-10 bg-white/10 rounded-[10px] flex items-center justify-center text-white/75 hover:bg-white/20 transition-colors cursor-pointer">
+              </a>
+              <a
+                href="https://x.com/YOUR_PAGE"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="MZ Cleaners on X"
+                className="w-10 h-10 bg-white/10 rounded-[10px] flex items-center justify-center text-white/75 hover:bg-white/20 transition-colors cursor-pointer"
+              >
                 <span className="font-bold text-[15px]">𝕏</span>
-              </Link>
+              </a>
             </div>
           </div>
 
@@ -40,11 +57,11 @@ export default function Footer() {
               Services
             </h4>
             <div className="flex flex-col items-center md:items-start gap-4">
-              <Link href="/services" className="text-[14px] text-white/60 hover:text-white transition-colors">Residential Cleaning</Link>
-              <Link href="/services" className="text-[14px] text-white/60 hover:text-white transition-colors">Deep Cleaning</Link>
-              <Link href="/services" className="text-[14px] text-white/60 hover:text-white transition-colors">End of Tenancy Cleaning</Link>
-              <Link href="/services" className="text-[14px] text-white/60 hover:text-white transition-colors">Office Cleaning</Link>
-              <Link href="/services" className="text-[14px] text-white/60 hover:text-white transition-colors">Commercial Cleaning</Link>
+              <Link href="/services/regular-house-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Residential Cleaning</Link>
+              <Link href="/services/deep-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Deep Cleaning</Link>
+              <Link href="/services/end-of-tenancy-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">End of Tenancy Cleaning</Link>
+              <Link href="/services/kitchen-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Office Cleaning</Link>
+              <Link href="/services/bathroom-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Commercial Cleaning</Link>
               <Link href="/quote" className="text-[14px] text-white/60 hover:text-white transition-colors">Get a Free Quote</Link>
             </div>
           </div>
@@ -60,7 +77,7 @@ export default function Footer() {
               <Link href="/#reviews" className="text-[14px] text-white/60 hover:text-white transition-colors">Customer Reviews</Link>
               <Link href="/gallery" className="text-[14px] text-white/60 hover:text-white transition-colors">Gallery</Link>
               <Link href="/contact" className="text-[14px] text-white/60 hover:text-white transition-colors">Contact</Link>
-              <Link href="#" className="text-[14px] text-white/60 hover:text-white transition-colors">Privacy Policy</Link>
+              <Link href="/privacy-policy" className="text-[14px] text-white/60 hover:text-white transition-colors">Privacy Policy</Link>
             </div>
           </div>
 

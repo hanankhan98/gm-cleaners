@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef, useCallback } from "react";
-import Image from "next/image";
+import React, { useState, useEffect, useRef, useCallback, type CSSProperties } from "react";
 import Link from "next/link";
 import AnimateOnScroll from "@/components/AnimateOnScroll";
 
@@ -27,14 +26,16 @@ const reviews = [
 ];
 
 const AUTOPLAY_MS = 5000;
+type Direction = "left" | "right";
+type SlideStyle = CSSProperties & { "--slide-from": string };
 
 export default function TestimonialSection() {
   const [current, setCurrent] = useState(0);
-  const [direction, setDirection] = useState<"right" | "left">("right");
+  const [direction, setDirection] = useState<Direction>("right");
   const [isHovered, setIsHovered] = useState(false);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
-  const goTo = useCallback((index: number, dir: "right" | "left" = "right") => {
+  const goTo = useCallback((index: number, dir: Direction = "right") => {
     setDirection(dir);
     setCurrent(((index % reviews.length) + reviews.length) % reviews.length);
   }, []);
@@ -53,12 +54,9 @@ export default function TestimonialSection() {
     if (isHovered) return;
     timerRef.current = setInterval(goNext, AUTOPLAY_MS);
     return () => {
-      if (timerRef.current !== null) {
-        clearInterval(timerRef.current);
-        timerRef.current = null;
-      }
+      if (timerRef.current !== null) clearInterval(timerRef.current);
     };
-  }, [isHovered, goNext]);
+  }, [isHovered, current, goNext]);
 
   const handleDotClick = (index: number) => {
     goTo(index, index > current ? "right" : "left");
@@ -67,13 +65,11 @@ export default function TestimonialSection() {
   const review = reviews[current];
 
   return (
-    <section className="w-full relative bg-[#eaf4fd] py-12 md:py-24 overflow-hidden font-inter">
+    <section id="reviews" className="w-full relative bg-[#eaf4fd] py-12 md:py-24 overflow-hidden font-inter">
       {/* Decorative Image */}
-      <Image
+      <img
         src="/cus_rev.png"
         alt=""
-        width={140}
-        height={140}
         className="absolute -bottom-16 left-[-20px] w-[140px] h-auto object-cover opacity-80 pointer-events-none z-0"
       />
 
@@ -115,7 +111,7 @@ export default function TestimonialSection() {
             <div
               key={current}
               className="bg-white border border-[#c5dff0] rounded-[18px] p-8 flex flex-col animate-testimonial-in"
-              style={{ "--slide-from": direction === "right" ? "24px" : "-24px" } as React.CSSProperties}
+              style={{ "--slide-from": direction === "right" ? "24px" : "-24px" } as SlideStyle}
             >
               <div className="text-[#c5dff0] text-4xl font-serif leading-none mb-4">&quot;</div>
               <div className="text-[#f59e0b] text-[16px] tracking-[2px] mb-4">★★★★★</div>

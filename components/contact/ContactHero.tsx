@@ -41,7 +41,7 @@ export default function ContactHero() {
         {/* Subtitle Paragraph */}
         <AnimateOnScroll animation="fade-up" delay={100}>
           <p className="text-[16px] md:text-[18px] leading-[30.6px] text-white/90 max-w-2xl mx-auto mb-10">
-            We&apos;re always happy to hear from you. Whether you have a question, want to discuss your cleaning needs, or are ready to book, our team is here and ready to help.
+            We're always happy to hear from you. Whether you have a question, want to discuss your cleaning needs, or are ready to book, our team is here and ready to help.
           </p>
         </AnimateOnScroll>
 

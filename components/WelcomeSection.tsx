@@ -31,7 +31,7 @@ export default function WelcomeSection() {
             <AnimateOnScroll animation="fade-up" delay={200}>
               <div className="space-y-6 font-inter font-normal text-[16.5px] leading-[29.37px] text-[#4A6278] mb-10">
                 <p>
-                  At MZ Cleaners, we are proud to be one of Manchester&apos;s most trusted
+                  At MZ Cleaners, we are proud to be one of Manchester's most trusted
                   professional cleaning companies. Whether you need a thorough deep clean
                   at home, a reliable end-of-tenancy clean, or a scheduled commercial
                   cleaning service for your business, our experienced and friendly team is
@@ -39,7 +39,7 @@ export default function WelcomeSection() {
                 </p>
                 <p>
                   We believe every home and workplace deserves to be clean, healthy, and
-                  welcoming. That&apos;s why we go above and beyond on every job, paying close
+                  welcoming. That's why we go above and beyond on every job, paying close
                   attention to detail and treating every property as if it were our own.
                 </p>
                 <p>

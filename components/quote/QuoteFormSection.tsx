@@ -336,7 +336,7 @@ export default function QuoteFormSection() {
                   </div>
                   <div>
                     <span className="font-inter font-semibold text-[13.5px] text-[#1c2d3e] block leading-tight">Book Your Clean</span>
-                    <span className="font-inter text-[12.5px] leading-[19.38px] text-[#4a6278]">Happy with the quote? Confirm your preferred date and time and we&apos;ll take care of the rest.</span>
+                    <span className="font-inter text-[12.5px] leading-[19.38px] text-[#4a6278]">Happy with the quote? Confirm your preferred date and time and we'll take care of the rest.</span>
                   </div>
                 </div>
               </div>
