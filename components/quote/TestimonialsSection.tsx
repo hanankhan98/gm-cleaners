@@ -75,7 +75,7 @@ export default function TestimonialsSection() {
 
             <p className="font-inter text-[15px] md:text-[16px] leading-[28.48px] text-[#4a6278] mb-8">
               Hundreds of homes and businesses across Manchester trust MZ
-              Cleaners. Here's what some of them say after their first clean.
+              Cleaners. Here&apos;s what some of them say after their first clean.
             </p>
 
             {/* Testimonial Cards */}

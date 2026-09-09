@@ -1,6 +1,7 @@
 import React from "react";
 import LeaveReviewForm from "@/components/LeaveReviewForm";
 import CTASection from "@/components/CTASection";
+import ReviewsCarousel from "@/components/ReviewsCarousel";
 
 export const metadata = {
   title: "Customer Reviews | MZ Cleaners",
@@ -77,58 +78,9 @@ export default function ReviewsPage() {
           MAIN CONTENT SECTION
           ================================================================ */}
       <section className="py-16 md:py-20 relative max-w-[1440px] mx-auto px-4 md:px-12 w-full">
-        {/* Reviews Grid */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
-          {allReviews.map((review, idx) => (
-            <div 
-              key={idx} 
-              className="bg-white border border-[#c5dff0] rounded-[18px] p-8 flex flex-col h-full transition-all duration-300 hover:-translate-y-1 hover:shadow-lg relative"
-            >
-              {/* Floating Quote Icon */}
-              <div className="absolute top-[-16px] left-[24px] w-[36px] h-[36px] rounded-full bg-[#2a8fd4] text-white flex items-center justify-center font-serif text-[28px] leading-none pt-2">
-                &ldquo;
-              </div>
-
-              {/* Stars */}
-              <div className="flex gap-1 mb-4 mt-2">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <svg
-                    key={i}
-                    className="w-4 h-4 text-[#F59E0B]"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
-                  </svg>
-                ))}
-              </div>
-
-              {/* Text */}
-              <p className="text-[#4a6278] text-[15px] leading-[26px] mb-8 flex-1 italic">
-                {review.text}
-              </p>
-
-              {/* Avatar and Name */}
-              <div className="border-t border-[#c5dff0] pt-6 flex items-center gap-4">
-                <div
-                  className="w-11 h-11 rounded-full flex items-center justify-center text-white font-plus-jakarta-sans font-extrabold text-[15px]"
-                  style={{
-                    background: "linear-gradient(135deg, #2a8fd4, #5bb8f5)",
-                  }}
-                >
-                  {review.initials}
-                </div>
-                <div>
-                  <div className="text-[#1c2d3e] text-[15px] font-bold leading-tight mb-1">
-                    {review.name}
-                  </div>
-                  <div className="text-[#8fa3b8] text-[13px] leading-tight">
-                    {review.location}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+        {/* Reviews Carousel */}
+        <div className="mb-20">
+          <ReviewsCarousel reviews={allReviews} />
         </div>
 
         {/* Divider */}

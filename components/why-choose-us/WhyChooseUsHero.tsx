@@ -30,7 +30,7 @@ export default function WhyChooseUsHero() {
         </AnimateOnScroll>
         <AnimateOnScroll animation="fade-up" delay={100}>
           <p className="text-[16px] md:text-[18px] leading-[30.6px] text-white/90 max-w-2xl mx-auto">
-            We're not just a cleaning company — we're a team of dedicated professionals who genuinely care about every result we deliver. Here's why local homes and businesses trust us.
+            We&apos;re not just a cleaning company — we&apos;re a team of dedicated professionals who genuinely care about every result we deliver. Here&apos;s why local homes and businesses trust us.
           </p>
         </AnimateOnScroll>
         <AnimateOnScroll animation="fade-up" delay={200}>
