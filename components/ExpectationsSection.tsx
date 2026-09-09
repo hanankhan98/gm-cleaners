@@ -57,7 +57,7 @@ export default function ExpectationsSection() {
             </div>
             
             <p className="text-gray-600 text-lg leading-relaxed">
-              We've simplified the process so you can get back to what matters most. From booking to the final walkthrough, our streamlined approach ensures a hassle-free experience.
+              We&apos;ve simplified the process so you can get back to what matters most. From booking to the final walkthrough, our streamlined approach ensures a hassle-free experience.
             </p>
 
             <div className="space-y-6 pt-4">
