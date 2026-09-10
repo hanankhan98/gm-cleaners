@@ -73,7 +73,7 @@ export default function PromiseSection() {
           </AnimateOnScroll>
           <AnimateOnScroll animation="fade-left" delay={100}>
             <p className="text-[15px] md:text-[17px] font-inter max-w-2xl leading-relaxed mx-auto md:mx-0 text-white/80">
-              We&apos;re not just a cleaning company, we&apos;re dedicated
+              We're not just a cleaning company, we're dedicated
               <br className="hidden md:block" />
               professionals who genuinely care about every result we deliver.
             </p>

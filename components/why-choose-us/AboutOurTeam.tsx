@@ -53,13 +53,13 @@ export default function AboutOurTeam() {
 
               {/* Paragraphs */}
               <p className="text-[15px] md:text-[16.5px] text-[#4a6278] leading-[1.78] mb-5 text-center md:text-left">
-                At MZ Cleaners, we understand that inviting someone into your home or business takes real trust. That&apos;s why every single member of our team is carefully selected, fully vetted, DBS checked, and trained to the highest professional standards before they ever step foot in a client&apos;s property.
+                At MZ Cleaners, we understand that inviting someone into your home or business takes real trust. That's why every single member of our team is carefully selected, fully vetted, DBS checked, and trained to the highest professional standards before they ever step foot in a client's property.
               </p>
               <p className="text-[15px] md:text-[16.5px] text-[#4a6278] leading-[1.78] mb-5 text-center md:text-left">
-                We&apos;re proud to have built a reputation in Manchester built on reliability, honesty, and consistently outstanding results. We don&apos;t cut corners — we clean them.
+                We're proud to have built a reputation in Manchester built on reliability, honesty, and consistently outstanding results. We don't cut corners — we clean them.
               </p>
               <p className="text-[15px] md:text-[16.5px] text-[#4a6278] leading-[1.78] mb-8 text-center md:text-left">
-                Every clean is backed by our satisfaction guarantee. If you&apos;re ever not happy with the result, we come back and make it right at absolutely no extra cost to you.
+                Every clean is backed by our satisfaction guarantee. If you're ever not happy with the result, we come back and make it right at absolutely no extra cost to you.
               </p>
 
               {/* Button */}

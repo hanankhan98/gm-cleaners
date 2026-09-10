@@ -45,7 +45,7 @@ export default function WhyChooseUs() {
         <>
           Transparent, fair pricing with no hidden <br className="hidden lg:block" />
           charges. You always know exactly what <br className="hidden lg:block" />
-          you&apos;re paying for before we begin any work.
+          you're paying for before we begin any work.
         </>
       ),
       icon: "💷",
@@ -55,7 +55,7 @@ export default function WhyChooseUs() {
       title: "High-Quality Service",
       description: (
         <>
-          We don&apos;t consider a job done until it meets <br className="hidden lg:block" />
+          We don't consider a job done until it meets <br className="hidden lg:block" />
           the highest standard. Outstanding, consistent <br className="hidden lg:block" />
           results on every visit, guaranteed.
         </>
@@ -97,7 +97,7 @@ export default function WhyChooseUs() {
         {/* Subtitle */}
         <AnimateOnScroll animation="fade-up" delay={100}>
           <p className="font-inter font-normal text-[#4a6278] text-[16px] md:text-[17px] text-center tracking-[0] leading-[1.75] mb-8 md:mb-[60px] max-w-[700px]">
-            We don&apos;t just clean, we care. Every job is carried out with <br className="hidden md:block" />
+            We don't just clean, we care. Every job is carried out with <br className="hidden md:block" />
             professionalism, attention to detail, and genuine pride in our work.
           </p>
         </AnimateOnScroll>
