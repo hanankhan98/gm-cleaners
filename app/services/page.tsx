@@ -18,7 +18,7 @@ export default function ServicesPage() {
       slug: "regular-house-cleaning",
       desc: "Weekly or fortnightly scheduled cleans covering all rooms, surfaces, floors, and general tidying for busy households.",
       icon: "🏡",
-      image: "/services_page/foryourhome/Regular house cleaning Manchester.jpg",
+      image: "/services_page/foryourhome/Regular house cleaning Manchester.webp",
       badge: "Popular"
     },
     {
@@ -26,28 +26,28 @@ export default function ServicesPage() {
       slug: "deep-cleaning",
       desc: "A thorough top-to-bottom clean covering every corner, inside cupboards, behind appliances, grout lines, and skirting boards.",
       icon: "✨",
-      image: "/services_page/foryourhome/Deep cleaning service Manchester.jpg",
+      image: "/services_page/foryourhome/Deep cleaning service Manchester.webp",
     },
     {
       title: "Move-In Cleaning",
       slug: "move-in-cleaning",
       desc: "Start your new chapter in a spotlessly clean home. We sanitise every surface, room, and corner before you unpack a single box.",
       icon: "📦",
-      image: "/services_page/foryourhome/Move in cleaning Manchester.jpg"
+      image: "/services_page/foryourhome/Move in cleaning Manchester.webp"
     },
     {
       title: "Move-Out Cleaning",
       slug: "move-out-cleaning",
       desc: "Leave your property in perfect condition for handover. Professional clean meeting estate agent and landlord expectations.",
       icon: "🚪",
-      image: "/services_page/foryourhome/Move out cleaning Manchester.jpg"
+      image: "/services_page/foryourhome/Move out cleaning Manchester.webp"
     },
     {
       title: "End of Tenancy Cleaning",
       slug: "end-of-tenancy-cleaning",
       desc: "Landlord-approved cleans to secure your full deposit return. We cover every room your letting agent will inspect.",
       icon: "🔑",
-      image: "/services_page/foryourhome/End of tenancy cleaning Manchester.jpg",
+      image: "/services_page/foryourhome/End of tenancy cleaning Manchester.webp",
       badge: "Most Booked",
       featured: true
     },
@@ -56,21 +56,21 @@ export default function ServicesPage() {
       slug: "kitchen-cleaning",
       desc: "Deep degreasing of hobs, ovens, and extractor fans. Surfaces, cupboards, appliances, sinks, taps, and tiles, all sanitised.",
       icon: "🍳",
-      image: "/services_page/foryourhome/Kitchen cleaning Manchester.jpg"
+      image: "/services_page/foryourhome/Kitchen cleaning Manchester.webp"
     },
     {
       title: "Bathroom Cleaning",
       slug: "bathroom-cleaning",
       desc: "Limescale removal, grout scrubbing, toilet, bath, shower and sink sanitisation. Mirrors polished and tiles sparkling.",
       icon: "🚿",
-      image: "/services_page/foryourhome/Bathroom cleaning Manchester.jpg"
+      image: "/services_page/foryourhome/Bathroom cleaning Manchester.webp"
     },
     {
       title: "Dusting, Vacuuming & Mopping",
       slug: "dusting-vacuuming-mopping",
       desc: "Complete floor and surface care throughout every room, skirting boards, light fittings, carpets, rugs, and all hard flooring.",
       icon: "🧹",
-      image: "/services_page/foryourhome/Dusting vacuuming mopping Manchester.jpg"
+      image: "/services_page/foryourhome/Dusting vacuuming mopping Manchester.webp"
     }
   ];
 
