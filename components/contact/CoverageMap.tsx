@@ -39,7 +39,7 @@ export default function CoverageMap() {
             </p>
             <p className="font-inter text-[15px] md:text-[16px] leading-[1.78] text-[#4a6278] mb-8 text-center md:text-left">
               Not sure if we cover your area? Give us a call or send a message
-              — we&apos;re always happy to discuss coverage for your location.
+              — we're always happy to discuss coverage for your location.
             </p>
 
             {/* Location Tags */}

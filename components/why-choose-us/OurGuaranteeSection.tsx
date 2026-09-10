@@ -46,7 +46,7 @@ export default function OurGuaranteeSection() {
               areas you are unhappy with at absolutely no extra cost.
             </p>
             <p className="font-inter text-[15px] md:text-[16px] leading-[1.78] text-[#4a6278] mb-10 text-center md:text-left">
-              This isn&apos;t just a policy — it is the standard we hold ourselves to on every
+              This isn't just a policy — it is the standard we hold ourselves to on every
               single job, for every single client, across Manchester and Greater
               Manchester.
             </p>
@@ -81,7 +81,7 @@ export default function OurGuaranteeSection() {
 
                 {/* Title */}
                 <h3 className="font-plus-jakarta-sans font-extrabold text-[24px] md:text-[26px] leading-[1.25] text-white mb-4">
-                  We Don&apos;t Leave Until the Job is Done<br />Right
+                  We Don't Leave Until the Job is Done<br />Right
                 </h3>
 
                 {/* Description */}
