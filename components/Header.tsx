@@ -23,6 +23,7 @@ const navItems = [
   { label: "Gallery" },
   { label: "Reviews" },
   { label: "Contact" },
+  { label: "Blog", href: "/blog/top-neighbourhoods-for-renters-manchester" },
 ];
 
 export default function Header() {
@@ -95,7 +96,7 @@ export default function Header() {
                 ) : (
                   <Link
                     key={item.label}
-                    href={item.label === "Home" ? "/" : `/${item.label.toLowerCase().replace(/\s+/g, "-")}`}
+                    href={item.href ?? (item.label === "Home" ? "/" : `/${item.label.toLowerCase().replace(/\s+/g, "-")}`)}
                     className="flex items-center h-full border-b-[3px] border-transparent text-[16px] font-medium text-[#0f4c81] hover:border-[#1a6daf] transition-colors whitespace-nowrap"
                   >
                     {item.label}

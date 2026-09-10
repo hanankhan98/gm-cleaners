@@ -77,6 +77,7 @@ export default function Footer() {
               <Link href="/#reviews" className="text-[14px] text-white/60 hover:text-white transition-colors">Customer Reviews</Link>
               <Link href="/gallery" className="text-[14px] text-white/60 hover:text-white transition-colors">Gallery</Link>
               <Link href="/contact" className="text-[14px] text-white/60 hover:text-white transition-colors">Contact</Link>
+              <Link href="/blog/top-neighbourhoods-for-renters-manchester" className="text-[14px] text-white/60 hover:text-white transition-colors">Blog</Link>
               <Link href="/privacy-policy" className="text-[14px] text-white/60 hover:text-white transition-colors">Privacy Policy</Link>
             </div>
           </div>
