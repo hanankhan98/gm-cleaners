@@ -8,8 +8,16 @@ import ExpectationsSection from "@/components/why-choose-us/ExpectationsSection"
 import OurGuaranteeSection from "@/components/why-choose-us/OurGuaranteeSection";
 
 export const metadata = {
-  title: "Why Choose Us | MZ Cleaners",
-  description: "Discover why Manchester homes and businesses trust MZ Cleaners. Satisfaction guarantee, fully insured, and highly trained staff.",
+  title: "Why Manchester Residents & Businesses Choose MZ Cleaners",
+  description: "Discover why Manchester residents and businesses choose MZ Cleaners: fully insured commercial cleaning, DBS checked cleaners, flexible contracts, local rates, and a 20% CitySuites Aparthotel welcome offer.",
+  keywords: [
+    "DBS checked cleaners Manchester",
+    "fully insured commercial cleaning",
+    "flexible office cleaning contracts",
+    "residential cleaning Manchester",
+    "cheapest local Manchester cleaning rates",
+    "CitySuites Aparthotel cleaning offer",
+  ],
 };
 
 export default function WhyChooseUsPage() {
