@@ -71,12 +71,20 @@ export default function ServicesPage() {
       desc: "Complete floor and surface care throughout every room, skirting boards, light fittings, carpets, rugs, and all hard flooring.",
       icon: "🧹",
       image: "/services_page/foryourhome/Dusting vacuuming mopping Manchester.webp"
+    },
+    {
+      title: "Laundry Service",
+      slug: "laundry-service",
+      desc: "A practical wash, dry, and fold service for everyday clothing, towels, bedding, and household laundry across Manchester.",
+      icon: "🧺",
+      image: "/services_page/foryourhome/Laundry Service.jpg"
     }
   ];
 
   const commercialServices = [
     {
       title: "Office Cleaning",
+      slug: "office-cleaning",
       desc: "Daily or weekly office cleans covering desks, floors, kitchens, toilets, reception areas, and all communal spaces.",
       icon: "🖥️",
       image: "https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600&auto=format&fit=crop",
@@ -85,6 +93,7 @@ export default function ServicesPage() {
     },
     {
       title: "Commercial Premises",
+      slug: "commercial-premises",
       desc: "From warehouses and industrial units to larger commercial buildings, we handle all types of commercial cleaning contracts.",
       icon: "🏭",
       image: "https://images.unsplash.com/photo-1587560699334-bea5356f9358?q=80&w=600&auto=format&fit=crop",
@@ -93,6 +102,7 @@ export default function ServicesPage() {
     },
     {
       title: "Retail Shop Cleaning",
+      slug: "retail-shop-cleaning",
       desc: "First impressions matter. We keep your retail environment clean, welcoming, and presentable shop floors and changing rooms.",
       icon: "🛍️",
       image: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=600&auto=format&fit=crop",
@@ -101,6 +111,7 @@ export default function ServicesPage() {
     },
     {
       title: "Health Safe Cleaning",
+      slug: "health-safe-cleaning",
       desc: "Thorough sanitisation of desks, chairs, door handles, light switches, phones, and keyboards reducing illness spread.",
       icon: "🧴",
       image: "https://images.unsplash.com/photo-1584483766114-2cea6facdf57?q=80&w=600&auto=format&fit=crop",

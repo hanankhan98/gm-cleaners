@@ -7,6 +7,7 @@ export const CommercialSection = () => {
   const commercialServices = [
     {
       title: "Office Cleaning",
+      slug: "office-cleaning",
       desc: "Daily or weekly office cleans covering desks, floors, kitchens, toilets, reception areas, and all communal spaces. Professional environment every single day.",
       icon: "🖥️",
       image: "/services_page/for_your_busniess/Office cleaning Manchester.jpg",
@@ -14,6 +15,7 @@ export const CommercialSection = () => {
     },
     {
       title: "Commercial Premises",
+      slug: "commercial-premises",
       desc: "From warehouses and industrial units to larger commercial buildings, we handle all types of commercial cleaning contracts with minimal disruption.",
       icon: "🏭",
       image: "/services_page/for_your_busniess/Commercial premises cleaning Manchester.jpg",
@@ -21,6 +23,7 @@ export const CommercialSection = () => {
     },
     {
       title: "Retail Shop Cleaning",
+      slug: "retail-shop-cleaning",
       desc: "First impressions matter. We keep your retail environment clean, welcoming, and presentable shop floors, changing rooms, counters, staff rooms, and customer toilets.",
       icon: "🛍️",
       image: "/services_page/for_your_busniess/Retail shop cleaning Manchester.jpg",
@@ -28,6 +31,7 @@ export const CommercialSection = () => {
     },
     {
       title: "Workspace Sanitisation",
+      slug: "health-safe-cleaning",
       desc: "Thorough sanitisation of desks, chairs, door handles, light switches, phones, and keyboards reducing illness spread and maintaining a healthy working environment.",
       icon: "🧴",
       image: "/services_page/for_your_busniess/Workspace sanitisation Manchester.jpg",
@@ -35,6 +39,7 @@ export const CommercialSection = () => {
     },
     {
       title: "Scheduled Daily Cleaning",
+      slug: "scheduled-daily-cleaning",
       desc: "Structured daily cleaning contracts for businesses that require a spotless environment every morning. Early starts, late finishes, we work around you completely.",
       icon: "📅",
       image: "/services_page/for_your_busniess/Daily office cleaning Manchester.jpg",
@@ -42,6 +47,7 @@ export const CommercialSection = () => {
     },
     {
       title: "Weekly & Monthly Contracts",
+      slug: "weekly-monthly-contracts",
       desc: "Flexible weekly and monthly commercial cleaning contracts with no long-term tie-in. Professional results at a frequency and budget that works for your business.",
       icon: "📋",
       image: "/services_page/for_your_busniess/Weekly monthly cleaning contract Manchester.jpg",
@@ -119,6 +125,11 @@ export const CommercialSection = () => {
                         </div>
                       ))}
                     </div>
+                    {service.slug && (
+                      <Link href={`/services/${service.slug}`} className="mt-5 flex items-center gap-1.5 text-[13px] font-bold text-[#2a8fd4] hover:text-[#237cbd]">
+                        View Service <span aria-hidden="true">→</span>
+                      </Link>
+                    )}
                   </div>
                   
                 </div>
@@ -210,6 +221,11 @@ export const CommercialSection = () => {
                         </div>
                       ))}
                     </div>
+                    {service.slug && (
+                      <Link href={`/services/${service.slug}`} className="mt-5 flex items-center gap-1.5 text-[13px] font-bold text-[#2a8fd4] hover:text-[#237cbd]">
+                        View Service <span aria-hidden="true">→</span>
+                      </Link>
+                    )}
                   </div>
                   
                 </div>

@@ -118,7 +118,7 @@ export default function ManchesterRentersGuide() {
             </section>
           </div>
 
-          <aside className="h-fit rounded-2xl border border-[#dceaf5] bg-white p-6 shadow-[0_8px_30px_rgba(42,143,212,0.08)] md:sticky md:top-8">
+          <aside className="h-fit rounded-2xl border border-[#dceaf5] bg-white p-6 shadow-[0_8px_30px_rgba(42,143,212,0.08)] md:sticky md:top-[160px]">
             <h2 className="font-plus-jakarta-sans text-lg font-bold">We cover Greater Manchester</h2>
             <ul className="mt-4 space-y-2 text-sm leading-6 text-[#4a6278]">
               {areas.map((area) => <li key={area}>{area}</li>)}

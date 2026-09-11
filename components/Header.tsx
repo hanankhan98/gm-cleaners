@@ -4,10 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 
-const navItems = [
-  { label: "Home" },
+type ServiceLink = { label: string; href: string };
+type ServiceGroup = { label: string; children: ServiceLink[] };
+
+const serviceGroups: ServiceGroup[] = [
   {
-    label: "Services",
+    label: "Residential Cleaning",
     children: [
       { label: "Regular House Cleaning", href: "/services/regular-house-cleaning" },
       { label: "Deep Cleaning", href: "/services/deep-cleaning" },
@@ -17,8 +19,25 @@ const navItems = [
       { label: "Kitchen Cleaning", href: "/services/kitchen-cleaning" },
       { label: "Bathroom Cleaning", href: "/services/bathroom-cleaning" },
       { label: "Dusting, Vacuuming & Mopping", href: "/services/dusting-vacuuming-mopping" },
+      { label: "Laundry Service", href: "/services/laundry-service" },
     ],
   },
+  {
+    label: "Commercial and Office Services",
+    children: [
+      { label: "Office Cleaning", href: "/services/office-cleaning" },
+      { label: "Commercial Premises", href: "/services/commercial-premises" },
+      { label: "Retail Shop Cleaning", href: "/services/retail-shop-cleaning" },
+      { label: "Health Safe Cleaning", href: "/services/health-safe-cleaning" },
+      { label: "Scheduled Daily Cleaning", href: "/services/scheduled-daily-cleaning" },
+      { label: "Weekly & Monthly Contracts", href: "/services/weekly-monthly-contracts" },
+    ],
+  },
+];
+
+const navItems = [
+  { label: "Home" },
+  { label: "Services", children: serviceGroups },
   { label: "Why Choose Us" },
   { label: "Gallery" },
   { label: "Reviews" },
@@ -30,6 +49,7 @@ export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [animateLinks, setAnimateLinks] = useState(false);
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+  const [mobileServiceGroup, setMobileServiceGroup] = useState<string | null>(null);
 
   useEffect(() => {
     const animationTimer = setTimeout(() => setAnimateLinks(menuOpen), menuOpen ? 50 : 0);
@@ -60,9 +80,9 @@ export default function Header() {
 
         <div className="bg-[#f6f7f6] border-t border-[#f0f2f0]">
           <div className="max-w-[1440px] mx-auto min-h-[48px] px-8 xl:px-11 flex items-center justify-between gap-8">
-            <div className="flex items-center gap-3 shrink-0 text-[#0f4c81] text-[15px] font-medium">
+            <div className="flex items-center gap-3 shrink-0 text-[#0f4c81] text-[12px] font-medium">
               <span className="text-[22px]" aria-hidden="true">⌖</span>
-              <span>Manchester, Great Manchester</span>
+              <span>Suite 112a, 53 Derby Street, Manchester</span>
             </div>
 
             <nav className="flex items-center self-stretch gap-7 xl:gap-9" aria-label="Main navigation">
@@ -80,15 +100,20 @@ export default function Header() {
                     </Link>
 
                     <div className="absolute top-full left-1/2 -translate-x-1/2 pt-3 opacity-0 invisible translate-y-1 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-200 ease-out">
-                      <div className="w-[280px] bg-white rounded-[14px] shadow-[0_12px_32px_rgba(15,76,129,0.18)] border border-[#e8f1fa] py-3 overflow-hidden">
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.label}
-                            href={child.href}
-                            className="flex items-center px-5 py-2.5 text-[14.5px] font-medium text-[#0f4c81] hover:bg-[#e8f1fa] hover:text-[#1a6daf] transition-colors"
-                          >
-                            {child.label}
-                          </Link>
+                      <div className="grid w-[580px] grid-cols-2 gap-5 rounded-[14px] border border-[#e8f1fa] bg-white p-5 shadow-[0_12px_32px_rgba(15,76,129,0.18)]">
+                        {item.children.map((group) => (
+                          <div key={group.label}>
+                            <div className="mb-2 border-b border-[#e8f1fa] pb-2 text-[13px] font-bold uppercase tracking-[0.5px] text-[#2a8fd4]">{group.label}</div>
+                            {group.children.map((child) => (
+                              <Link
+                                key={child.label}
+                                href={child.href}
+                                className="flex items-center rounded-md px-2 py-2 text-[13.5px] font-medium text-[#0f4c81] hover:bg-[#e8f1fa] hover:text-[#1a6daf] transition-colors"
+                              >
+                                {child.label}
+                              </Link>
+                            ))}
+                          </div>
                         ))}
                       </div>
                     </div>
@@ -177,18 +202,35 @@ export default function Header() {
 
                     <div
                       className="overflow-hidden transition-all duration-300 ease-out"
-                      style={{ maxHeight: mobileServicesOpen ? `${item.children.length * 44}px` : "0px" }}
+                      style={{ maxHeight: mobileServicesOpen ? "900px" : "0px" }}
                     >
-                      <div className="flex flex-col pt-3 gap-1">
-                        {item.children.map((child) => (
-                          <Link
-                            key={child.label}
-                            href={child.href}
-                            className="text-[15px] text-white/75 hover:text-white transition-colors py-1.5"
-                            onClick={() => setMenuOpen(false)}
-                          >
-                            {child.label}
-                          </Link>
+                      <div className="flex flex-col gap-2 pt-3">
+                        {item.children.map((group) => (
+                          <div key={group.label}>
+                            <button
+                              onClick={() => setMobileServiceGroup(mobileServiceGroup === group.label ? null : group.label)}
+                              className="flex w-full items-center justify-between py-1 text-left text-[16px] font-semibold text-white"
+                            >
+                              {group.label}
+                              <svg width="10" height="6" viewBox="0 0 10 6" fill="none" className={`transition-transform duration-200 ${mobileServiceGroup === group.label ? "rotate-180" : ""}`}>
+                                <path d="M1 1L5 5L9 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                              </svg>
+                            </button>
+                            {mobileServiceGroup === group.label && (
+                              <div className="flex flex-col gap-1 pb-2 pl-3">
+                                {group.children.map((child) => (
+                                  <Link
+                                    key={child.label}
+                                    href={child.href}
+                                    className="py-1 text-[15px] text-white/75 hover:text-white transition-colors"
+                                    onClick={() => setMenuOpen(false)}
+                                  >
+                                    {child.label}
+                                  </Link>
+                                ))}
+                              </div>
+                            )}
+                          </div>
                         ))}
                       </div>
                     </div>
