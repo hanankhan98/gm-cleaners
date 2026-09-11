@@ -1,78 +1,34 @@
 import AnimateOnScroll from "@/components/AnimateOnScroll";
+import Link from "next/link";
 
 export default function WhyChooseUs() {
   const features = [
     {
-      title: "Reliable & Professional",
-      description: (
-        <>
-          Our trained cleaning team shows up on time, <br className="hidden lg:block" />
-          every time. We take pride in delivering a <br className="hidden lg:block" />
-          consistent, professional service you can <br className="hidden lg:block" />
-          depend on.
-        </>
-      ),
-      icon: "🏆",
+      title: "Comprehensive Insurance Coverage",
+      description: "£5M/€5M Public Liability and £10M/€10M Employers Liability coverage for complete peace of mind across commercial and residential properties.",
+      microText: "Fully insured commercial cleaning for homes, offices, and business premises.",
+      icon: "🛡️",
       borderColor: "border-[#2a8fd4]",
     },
     {
-      title: "Fully Insured",
-      description: (
-        <>
-          MZ Cleaners is fully insured with public <br className="hidden lg:block" />
-          liability cover, giving you complete peace of <br className="hidden lg:block" />
-          mind on every single clean we carry out.
-        </>
-      ),
-      icon: "🛡️",
+      title: "DBS-Checked & Trained Staff",
+      description: "Dependable, background-checked cleaning specialists providing flexible daily, weekly, or overflow support tailored to your schedule.",
+      microText: "DBS checked cleaners Manchester businesses and residents can trust.",
+      icon: "✅",
       borderColor: "border-[#c5dff0]",
     },
     {
-      title: "Flexible Scheduling",
-      description: (
-        <>
-          We work around your diary. Early mornings, <br className="hidden lg:block" />
-          evenings, weekends, or last-minute slots <br className="hidden lg:block" />
-          we find a time that suits you perfectly.
-        </>
-      ),
-      icon: "📅",
+      title: "Exclusive CitySuites Aparthotel Offer",
+      description: "Get 20% off your first month of professional cleaning services with zero long-term contracts required.",
+      microText: "Flexible office cleaning contracts with a welcome saving for CitySuites Aparthotel.",
+      icon: "🎁",
       borderColor: "border-[#c5dff0]",
     },
     {
-      title: "Competitive Pricing",
-      description: (
-        <>
-          Transparent, fair pricing with no hidden <br className="hidden lg:block" />
-          charges. You always know exactly what <br className="hidden lg:block" />
-          you're paying for before we begin any work.
-        </>
-      ),
+      title: "Cheapest Local Manchester Rates",
+      description: "Unbeatable pricing guaranteed for all Manchester residents without compromising on quality.",
+      microText: "Local Manchester cleaning prices with clear quotes and no hidden charges.",
       icon: "💷",
-      borderColor: "border-[#c5dff0]",
-    },
-    {
-      title: "High-Quality Service",
-      description: (
-        <>
-          We don't consider a job done until it meets <br className="hidden lg:block" />
-          the highest standard. Outstanding, consistent <br className="hidden lg:block" />
-          results on every visit, guaranteed.
-        </>
-      ),
-      icon: "⭐",
-      borderColor: "border-[#c5dff0]",
-    },
-    {
-      title: "Safe & Eco-Friendly",
-      description: (
-        <>
-          Professional-grade, eco-friendly cleaning <br className="hidden lg:block" />
-          products that are safe for children, pets, and <br className="hidden lg:block" />
-          people with allergies or sensitivities.
-        </>
-      ),
-      icon: "🌿",
       borderColor: "border-[#c5dff0]",
     },
   ];
@@ -88,22 +44,31 @@ export default function WhyChooseUs() {
 
         {/* Title */}
         <AnimateOnScroll animation="fade-up">
-          <h2 className="flex flex-wrap items-center justify-center font-plus-jakarta-sans font-bold text-[32px] md:text-[44px] text-center tracking-[-0.88px] leading-[1.18] mb-6">
-          <span className="text-[#1c2d3e] tracking-[-0.39px] mr-2">What Makes Us</span>
-          <span className="text-[#2a8fd4] tracking-[-0.39px]">Different</span>
+          <h2 className="flex max-w-4xl flex-wrap items-center justify-center font-plus-jakarta-sans font-bold text-[32px] md:text-[44px] text-center tracking-[-0.88px] leading-[1.18] mb-6">
+          <span className="text-[#1c2d3e] tracking-[-0.39px] mr-2">Why Manchester Residents &amp; Businesses Choose</span>
+          <span className="text-[#2a8fd4] tracking-[-0.39px]">MZ Cleaners</span>
         </h2>
         </AnimateOnScroll>
 
         {/* Subtitle */}
         <AnimateOnScroll animation="fade-up" delay={100}>
-          <p className="font-inter font-normal text-[#4a6278] text-[16px] md:text-[17px] text-center tracking-[0] leading-[1.75] mb-8 md:mb-[60px] max-w-[700px]">
-            We don't just clean, we care. Every job is carried out with <br className="hidden md:block" />
-            professionalism, attention to detail, and genuine pride in our work.
+          <p className="font-inter font-normal text-[#4a6278] text-[16px] md:text-[17px] text-center tracking-[0] leading-[1.75] mb-8 max-w-[760px]">
+            Professional residential and commercial cleaning across Manchester, backed by trusted teams, transparent local pricing, and flexible support for homes, offices, and business premises.
           </p>
+
+          <AnimateOnScroll animation="fade-up" delay={150} className="mb-8 w-full max-w-[900px]">
+            <div className="flex flex-col items-center justify-between gap-4 rounded-[16px] border border-[#b9ddf4] bg-[#eaf4fd] px-5 py-4 text-center md:flex-row md:text-left">
+              <div>
+                <p className="font-plus-jakarta-sans text-[15px] font-bold text-[#0f4c81]">20% Off First Month for CitySuites Aparthotel</p>
+                <p className="mt-1 text-[13px] text-[#4a6278]">Welcome offer with no long-term contract required.</p>
+              </div>
+              <Link href="/quote" className="shrink-0 rounded-[9px] bg-[#2a8fd4] px-5 py-2.5 text-[13px] font-bold text-white transition-colors hover:bg-[#237cbd]">Claim Welcome Offer</Link>
+            </div>
+          </AnimateOnScroll>
         </AnimateOnScroll>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-[30px] w-full max-w-[1440px]">
+        <div className="grid w-full max-w-[1100px] grid-cols-1 gap-6 md:grid-cols-2 lg:gap-[30px]">
           {features.map((feature, index) => (
             <AnimateOnScroll key={index} animation="fade-up" delay={index * 100} className="w-full">
               <div
@@ -122,13 +87,21 @@ export default function WhyChooseUs() {
               </h3>
 
               {/* Card Description */}
-              <p className="font-inter font-normal text-[#4a6278] text-[14.5px] tracking-[0] leading-[24.4px] flex-1">
+              <p className="font-inter font-normal text-[#4a6278] text-[14.5px] tracking-[0] leading-[24.4px]">
                 {feature.description}
               </p>
+              <p className="mt-4 border-t border-[#e4eff7] pt-3 text-[12px] font-semibold leading-5 text-[#2a8fd4]">{feature.microText}</p>
             </div>
             </AnimateOnScroll>
           ))}
         </div>
+
+        <AnimateOnScroll animation="fade-up" delay={450} className="mt-8">
+          <div className="flex flex-wrap items-center justify-center gap-3">
+            <span className="rounded-full border border-[#b9ddf4] bg-white px-4 py-2 text-[12px] font-bold text-[#0f4c81]">Fully Insured (£5M/€5M &amp; £10M/€10M)</span>
+            <span className="rounded-full border border-[#b9ddf4] bg-white px-4 py-2 text-[12px] font-bold text-[#0f4c81]">DBS Checked</span>
+          </div>
+        </AnimateOnScroll>
       </div>
       
       {/* Decorative Background Elements */}
