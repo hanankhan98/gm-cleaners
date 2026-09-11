@@ -69,7 +69,7 @@ export default function ServiceDetailPage({ service }: { service: ServiceDetail 
       </section>
 
       <section className="mx-auto grid max-w-[1200px] items-start gap-10 px-4 py-14 md:grid-cols-[minmax(280px,0.85fr)_minmax(0,1.15fr)] md:px-12 md:py-20">
-        <div className="relative aspect-[4/3] w-full self-start overflow-hidden rounded-[24px] shadow-[0_12px_40px_rgba(42,143,212,0.18)] md:sticky md:top-8 md:max-h-[420px]">
+        <div className="relative aspect-[4/3] w-full self-start overflow-hidden rounded-[24px] shadow-[0_12px_40px_rgba(42,143,212,0.18)] md:sticky md:top-[160px] md:max-h-[420px]">
           <Image src={service.image} alt={service.title} fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" priority />
         </div>
 

@@ -56,12 +56,40 @@ export default function Footer() {
             <h4 className="font-plus-jakarta-sans text-white text-[12px] tracking-[1.2px] uppercase mb-6 text-center md:text-left">
               Services
             </h4>
-            <div className="flex flex-col items-center md:items-start gap-4">
-              <Link href="/services/regular-house-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Residential Cleaning</Link>
-              <Link href="/services/deep-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Deep Cleaning</Link>
-              <Link href="/services/end-of-tenancy-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">End of Tenancy Cleaning</Link>
-              <Link href="/services/kitchen-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Office Cleaning</Link>
-              <Link href="/services/bathroom-cleaning" className="text-[14px] text-white/60 hover:text-white transition-colors">Commercial Cleaning</Link>
+            <div className="flex w-full max-w-[310px] flex-col gap-3 md:items-start">
+              <details className="group w-full">
+                <summary className="flex cursor-pointer list-none items-center justify-between text-[14px] font-semibold text-white/80 hover:text-white [&::-webkit-details-marker]:hidden">
+                  Residential Cleaning
+                  <span className="text-lg leading-none transition-transform group-open:rotate-180" aria-hidden="true">⌄</span>
+                </summary>
+                <div className="mt-3 flex flex-col gap-2 border-l border-white/20 pl-4">
+                  <Link href="/services/regular-house-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Regular House Cleaning</Link>
+                  <Link href="/services/deep-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Deep Cleaning</Link>
+                  <Link href="/services/move-in-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Move-In Cleaning</Link>
+                  <Link href="/services/move-out-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Move-Out Cleaning</Link>
+                  <Link href="/services/end-of-tenancy-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">End of Tenancy Cleaning</Link>
+                  <Link href="/services/kitchen-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Kitchen Cleaning</Link>
+                  <Link href="/services/bathroom-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Bathroom Cleaning</Link>
+                  <Link href="/services/dusting-vacuuming-mopping" className="text-[13px] text-white/60 hover:text-white transition-colors">Dusting, Vacuuming &amp; Mopping</Link>
+                  <Link href="/services/laundry-service" className="text-[13px] text-white/60 hover:text-white transition-colors">Laundry Service</Link>
+                </div>
+              </details>
+
+              <details className="group w-full">
+                <summary className="flex cursor-pointer list-none items-center justify-between text-[14px] font-semibold text-white/80 hover:text-white [&::-webkit-details-marker]:hidden">
+                  Commercial and Office Services
+                  <span className="text-lg leading-none transition-transform group-open:rotate-180" aria-hidden="true">⌄</span>
+                </summary>
+                <div className="mt-3 flex flex-col gap-2 border-l border-white/20 pl-4">
+                  <Link href="/services/office-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Office Cleaning</Link>
+                  <Link href="/services/commercial-premises" className="text-[13px] text-white/60 hover:text-white transition-colors">Commercial Premises</Link>
+                  <Link href="/services/retail-shop-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Retail Shop Cleaning</Link>
+                  <Link href="/services/health-safe-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Health Safe Cleaning</Link>
+                  <Link href="/services/scheduled-daily-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Scheduled Daily Cleaning</Link>
+                  <Link href="/services/weekly-monthly-contracts" className="text-[13px] text-white/60 hover:text-white transition-colors">Weekly &amp; Monthly Contracts</Link>
+                </div>
+              </details>
+
               <Link href="/quote" className="text-[14px] text-white/60 hover:text-white transition-colors">Get a Free Quote</Link>
             </div>
           </div>
