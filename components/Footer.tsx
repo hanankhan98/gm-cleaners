@@ -1,7 +1,49 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Link from "next/link";
 
 export default function Footer() {
+  const [openSection, setOpenSection] = useState<string | null>(null);
+
+  const toggleSection = (section: string) => {
+    setOpenSection(openSection === section ? null : section);
+  };
+
+  const residentialServices = [
+    { name: "Regular House Cleaning", href: "/services/regular-house-cleaning" },
+    { name: "Deep Cleaning", href: "/services/deep-cleaning" },
+    { name: "Move-In Cleaning", href: "/services/move-in-cleaning" },
+    { name: "Move-Out Cleaning", href: "/services/move-out-cleaning" },
+    { name: "End of Tenancy Cleaning", href: "/services/end-of-tenancy-cleaning" },
+    { name: "Kitchen Cleaning", href: "/services/kitchen-cleaning" },
+    { name: "Bathroom Cleaning", href: "/services/bathroom-cleaning" },
+    { name: "Dusting, Vacuuming & Mopping", href: "/services/dusting-vacuuming-mopping" },
+    { name: "Laundry Service", href: "/services/laundry-service" },
+  ];
+
+  const commercialServices = [
+    { name: "Office Cleaning", href: "/services/office-cleaning" },
+    { name: "Commercial Premises", href: "/services/commercial-premises" },
+    { name: "Retail Shop Cleaning", href: "/services/retail-shop-cleaning" },
+    { name: "Health Safe Cleaning", href: "/services/health-safe-cleaning" },
+    { name: "Scheduled Daily Cleaning", href: "/services/scheduled-daily-cleaning" },
+    { name: "Weekly & Monthly Contracts", href: "/services/weekly-monthly-contracts" },
+  ];
+
+  const areas = [
+    { name: "Manchester", href: "/areas/manchester" },
+    { name: "Salford", href: "/areas/salford" },
+    { name: "Stockport", href: "/areas/stockport" },
+    { name: "Trafford", href: "/areas/trafford" },
+    { name: "Didsbury", href: "/areas/didsbury" },
+    { name: "Chorlton", href: "/areas/chorlton" },
+    { name: "Sale", href: "/areas/sale" },
+    { name: "Altrincham", href: "/areas/altrincham" },
+    { name: "Prestwich", href: "/areas/prestwich" },
+    { name: "Wilmslow", href: "/areas/wilmslow" },
+  ];
+
   return (
     <footer className="w-full relative bg-[#1a2f45] overflow-hidden font-inter text-[12px] text-white/60">
       {/* Decorative Bubbles */}
@@ -57,40 +99,93 @@ export default function Footer() {
               Services
             </h4>
             <div className="flex w-full max-w-[310px] flex-col gap-3 md:items-start">
-              <details className="group w-full">
-                <summary className="flex cursor-pointer list-none items-center justify-between text-[14px] font-semibold text-white/80 hover:text-white [&::-webkit-details-marker]:hidden">
-                  Residential Cleaning
-                  <span className="text-lg leading-none transition-transform group-open:rotate-180" aria-hidden="true">⌄</span>
-                </summary>
-                <div className="mt-3 flex flex-col gap-2 border-l border-white/20 pl-4">
-                  <Link href="/services/regular-house-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Regular House Cleaning</Link>
-                  <Link href="/services/deep-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Deep Cleaning</Link>
-                  <Link href="/services/move-in-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Move-In Cleaning</Link>
-                  <Link href="/services/move-out-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Move-Out Cleaning</Link>
-                  <Link href="/services/end-of-tenancy-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">End of Tenancy Cleaning</Link>
-                  <Link href="/services/kitchen-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Kitchen Cleaning</Link>
-                  <Link href="/services/bathroom-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Bathroom Cleaning</Link>
-                  <Link href="/services/dusting-vacuuming-mopping" className="text-[13px] text-white/60 hover:text-white transition-colors">Dusting, Vacuuming &amp; Mopping</Link>
-                  <Link href="/services/laundry-service" className="text-[13px] text-white/60 hover:text-white transition-colors">Laundry Service</Link>
-                </div>
-              </details>
+              
+              {/* Residential Cleaning Accordion */}
+              <div className="w-full">
+                <button
+                  type="button"
+                  onClick={() => toggleSection("residential")}
+                  className="flex w-full cursor-pointer items-center justify-between text-[14px] font-semibold text-white/80 hover:text-white transition-colors text-left"
+                >
+                  <span>Residential Cleaning</span>
+                  <span className={`text-xs transition-transform duration-200 ${openSection === "residential" ? "rotate-180" : ""}`}>
+                    
+                  </span>
+                </button>
 
-              <details className="group w-full">
-                <summary className="flex cursor-pointer list-none items-center justify-between text-[14px] font-semibold text-white/80 hover:text-white [&::-webkit-details-marker]:hidden">
-                  Commercial and Office Services
-                  <span className="text-lg leading-none transition-transform group-open:rotate-180" aria-hidden="true">⌄</span>
-                </summary>
-                <div className="mt-3 flex flex-col gap-2 border-l border-white/20 pl-4">
-                  <Link href="/services/office-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Office Cleaning</Link>
-                  <Link href="/services/commercial-premises" className="text-[13px] text-white/60 hover:text-white transition-colors">Commercial Premises</Link>
-                  <Link href="/services/retail-shop-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Retail Shop Cleaning</Link>
-                  <Link href="/services/health-safe-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Health Safe Cleaning</Link>
-                  <Link href="/services/scheduled-daily-cleaning" className="text-[13px] text-white/60 hover:text-white transition-colors">Scheduled Daily Cleaning</Link>
-                  <Link href="/services/weekly-monthly-contracts" className="text-[13px] text-white/60 hover:text-white transition-colors">Weekly &amp; Monthly Contracts</Link>
-                </div>
-              </details>
+                {openSection === "residential" && (
+                  <div className="mt-2 flex flex-col gap-2 border-l border-white/20 pl-4 py-1">
+                    {residentialServices.map((service, idx) => (
+                      <Link 
+                        key={idx}
+                        href={service.href} 
+                        className="text-[13px] text-white/60 hover:text-white transition-colors"
+                      >
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
 
-              <Link href="/quote" className="text-[14px] text-white/60 hover:text-white transition-colors">Get a Free Quote</Link>
+              {/* Commercial and Office Services Accordion */}
+              <div className="w-full">
+                <button
+                  type="button"
+                  onClick={() => toggleSection("commercial")}
+                  className="flex w-full cursor-pointer items-center justify-between text-[14px] font-semibold text-white/80 hover:text-white transition-colors text-left"
+                >
+                  <span>Commercial and Office Services</span>
+                  <span className={`text-xs transition-transform duration-200 ${openSection === "commercial" ? "rotate-180" : ""}`}>
+                    
+                  </span>
+                </button>
+
+                {openSection === "commercial" && (
+                  <div className="mt-2 flex flex-col gap-2 border-l border-white/20 pl-4 py-1">
+                    {commercialServices.map((service, idx) => (
+                      <Link 
+                        key={idx}
+                        href={service.href} 
+                        className="text-[13px] text-white/60 hover:text-white transition-colors"
+                      >
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+
+              {/* Areas We Cover: hover on desktop, click on touch devices */}
+              <div className="group relative w-full">
+                <button
+                  type="button"
+                  onClick={() => toggleSection("areas")}
+                  aria-expanded={openSection === "areas"}
+                  className="flex w-full cursor-pointer items-center justify-between text-left text-[14px] font-semibold text-white/80 transition-colors hover:text-white"
+                >
+                  <span>Areas We Cover</span>
+                  <span className={`text-xs transition-transform duration-200 ${openSection === "areas" ? "rotate-180" : ""}`}>
+                    &darr;
+                  </span>
+                </button>
+
+                <div className={`mt-2 flex-col gap-2 border-l border-white/20 pl-4 py-1 ${openSection === "areas" ? "flex" : "hidden group-hover:flex"}`}>
+                  {areas.map((area) => (
+                    <Link
+                      key={area.href}
+                      href={area.href}
+                      className="text-[13px] text-white/60 transition-colors hover:text-white"
+                    >
+                      {area.name} cleaning services
+                    </Link>
+                  ))}
+                </div>
+              </div>
+
+              <Link href="/quote" className="text-[14px] text-white/60 hover:text-white transition-colors pt-1">
+                Get a Free Quote
+              </Link>
             </div>
           </div>
 

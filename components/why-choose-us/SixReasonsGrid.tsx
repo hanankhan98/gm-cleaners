@@ -4,45 +4,31 @@ import AnimateOnScroll from '@/components/AnimateOnScroll';
 const reasons = [
   {
     id: '01',
-    icon: '🏆',
-    title: 'Professional & Reliable Service',
-    description: 'When you book with MZ Cleaners, we show up on time, complete the job to the agreed standard, and communicate clearly at every step. No excuses, no surprises.',
-    bullets: ['Punctual arrival every visit', 'Consistent team assigned to you', 'Clear communication throughout']
+    icon: '🛡️',
+    title: 'Comprehensive Insurance Coverage',
+    description: '£5M/€5M Public Liability and £10M/€10M Employers Liability coverage for complete peace of mind across commercial and residential properties.',
+    bullets: ['Fully insured commercial cleaning', 'Residential and business cover', 'Peace of mind on every clean']
   },
   {
     id: '02',
-    icon: '🔍',
-    title: 'Exceptional Attention to Detail',
-    description: 'We clean the areas others overlook. Behind appliances, inside cupboards, grout lines, skirting boards — our team is methodical, thorough, and detail-focused every time.',
-    bullets: ['No area left uncleaned', 'Methodical room-by-room approach', 'Quality checked before we leave']
+    icon: '✅',
+    title: 'DBS-Checked & Trained Staff',
+    description: 'Dependable, background-checked cleaning specialists providing flexible daily, weekly, or overflow support tailored to your schedule.',
+    bullets: ['DBS checked cleaners Manchester', 'Reference verified before hiring', 'Professional and respectful always']
   },
   {
     id: '03',
-    icon: '✅',
-    title: 'Friendly & Trustworthy Cleaners',
-    description: 'All MZ Cleaners staff are DBS checked, reference verified, and trained before entering any property. You can feel completely safe and comfortable with our team.',
-    bullets: ['Full DBS background checks', 'Reference verified before hiring', 'Professional and respectful always']
+    icon: '🎁',
+    title: 'Exclusive CitySuites Aparthotel Offer',
+    description: 'Get 20% off your first month of professional cleaning services with zero long-term contracts required.',
+    bullets: ['20% off your first month', 'No long-term contract required', 'Professional commercial cleaning']
   },
   {
     id: '04',
-    icon: '📅',
-    title: 'Flexible Appointments',
-    description: 'Early mornings, evenings, weekends, last-minute bookings — we work around your schedule, not the other way around. Cleaning that fits into your life.',
-    bullets: ['Early morning & evening slots', 'Weekend availability', 'Last-minute bookings welcome']
-  },
-  {
-    id: '05',
-    icon: '⭐',
-    title: 'Customer Satisfaction Guaranteed',
-    description: 'We are not happy until you are happy. If anything falls short of your expectations, we return and put it right at zero extra cost. That is our promise to every client.',
-    bullets: ['Satisfaction guarantee', 'Free return visit if needed', 'Highly recommended by customers']
-  },
-  {
-    id: '06',
-    icon: '🌿',
-    title: 'Safe Cleaning Methods & Products',
-    description: 'We use professional-grade, eco-friendly cleaning products that are non-toxic and safe for children, pets, and allergy sufferers. We care for your people, not just your property.',
-    bullets: ['Eco-friendly & non-toxic products', 'Safe for children and pets', 'Kind to the environment']
+    icon: '💷',
+    title: 'Cheapest Local Manchester Rates',
+    description: 'Unbeatable pricing guaranteed for all Manchester residents without compromising on quality.',
+    bullets: ['Local Manchester pricing', 'Clear quotes with no hidden fees', 'Quality service at a fair rate']
   }
 ];
 
@@ -67,7 +53,7 @@ export default function SixReasonsGrid() {
 
         {/* Subtitle */}
         <p className="font-inter text-[15px] md:text-[17px] leading-[1.75] text-[rgba(255,255,255,0.68)] max-w-[550px] mb-16 text-center md:text-left mx-auto md:mx-0">
-          Every reason below is a commitment we make to every single client, on every single clean.
+          Trust guarantees, local pricing benefits, and flexible support for Manchester homes and businesses.
         </p>
         </AnimateOnScroll>
 
