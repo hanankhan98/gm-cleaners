@@ -238,7 +238,7 @@ export default function Header() {
                 ) : (
                   <Link
                     key={item.label}
-                    href={item.label === "Home" ? "/" : `/${item.label.toLowerCase().replace(/\s+/g, "-")}`}
+                    href={item.href ?? (item.label === "Home" ? "/" : `/${item.label.toLowerCase().replace(/\s+/g, "-")}`)}
                     className="text-[18px] font-semibold text-white/90 hover:text-white transition-colors border-b border-white/10 pb-4 block"
                     style={{
                       opacity: animateLinks ? 1 : 0,
