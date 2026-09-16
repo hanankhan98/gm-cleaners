@@ -6,13 +6,13 @@ export const metadata: Metadata = {
   description:
     "Thinking about renting in Manchester? Explore five popular neighbourhoods, what their properties are like, and what to know before moving in or out.",
   alternates: {
-    canonical: "https://mzcleaners.co.uk/blog/top-neighbourhoods-for-renters-manchester",
+    canonical: "https://www.mzcleaners.co.uk/blog/top-neighbourhoods-for-renters-manchester",
   },
   openGraph: {
     title: "Top 5 Neighbourhoods for Renters in Manchester | MZ Cleaners",
     description:
       "A practical local guide to five popular Manchester neighbourhoods for renters, from Didsbury and Chorlton to Salford Quays and Stockport.",
-    url: "https://mzcleaners.co.uk/blog/top-neighbourhoods-for-renters-manchester",
+    url: "https://www.mzcleaners.co.uk/blog/top-neighbourhoods-for-renters-manchester",
     siteName: "MZ Cleaners",
     locale: "en_GB",
     type: "article",
