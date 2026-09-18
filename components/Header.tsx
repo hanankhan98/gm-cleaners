@@ -69,7 +69,7 @@ export default function Header() {
           </div>
 
           <Link href="/" className="flex items-center" aria-label="MZ Cleaners home">
-            <Image src="/logo.png" alt="MZ Cleaners" width={220} height={61} className="h-auto w-auto max-h-[61px] object-contain" priority />
+            <Image src="/logo.jpg" alt="MZ Cleaners" width={165} height={46} className="h-auto w-auto max-h-[46px] object-contain" priority />
           </Link>
 
           <Link href="/quote" className="flex items-center justify-center gap-3 w-[201px] h-[50px] bg-[#0f4c81] text-white text-[17px] font-bold hover:bg-[#0c3a63] transition-colors">
@@ -139,7 +139,7 @@ export default function Header() {
 
       <div className="lg:hidden h-[60px] px-4 flex items-center justify-between">
         <Link href="/" className="flex items-center">
-          <Image src="/logo.png" alt="MZ Cleaners" width={165} height={46} className="h-auto w-auto max-h-[46px] object-contain" priority />
+          <Image src="/logo.jpg" alt="MZ Cleaners" width={165} height={46} className="h-auto w-auto max-h-[46px] object-contain" priority />
         </Link>
         <div className="flex items-center gap-3">
           <a href="tel:+447535048548" className="flex items-center justify-center w-10 h-10 rounded-full bg-[#e8f1fa] text-[#0f4c81] text-[19px]" aria-label="Call MZ Cleaners">☎</a>
