@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Deep Cleaning Manchester | Top-to-Bottom House Deep Clean - MZ Cleaners",
+  title: "Deep Cleaning Manchester | MZ Cleaners",
   description:
     "Professional deep cleaning in Manchester. We tackle skirting boards, grout, cupboards, and behind appliances for a thorough, detailed reset. Get a free quote today.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "professional deep cleaners",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/deep-cleaning",
+    canonical: "https://mzcleaners.co.uk/services/deep-cleaning",
   },
   openGraph: {
     title: "Deep Cleaning Manchester | MZ Cleaners",
     description:
       "A thorough top-to-bottom clean for the areas everyday cleaning misses. Corners, skirting boards, grout lines, cupboards, and behind appliances, all handled across Manchester.",
-    url: "https://www.mzcleaners.co.uk/services/deep-cleaning",
+    url: "https://mzcleaners.co.uk/services/deep-cleaning",
     siteName: "MZ Cleaners",
     images: [
       {

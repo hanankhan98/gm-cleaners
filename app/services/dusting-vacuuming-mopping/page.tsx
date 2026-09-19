@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Dusting, Vacuuming & Mopping Manchester | Floor & Surface Cleaning - MZ Cleaners",
+  title: "Dusting, Vacuuming & Mopping Manchester | MZ Cleaners",
   description:
     "Professional dusting, vacuuming, and mopping service in Manchester. We refresh surfaces, carpets, rugs, and hard flooring throughout your home. Get a free quote today.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "home floor care Manchester",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/dusting-vacuuming-mopping",
+    canonical: "https://mzcleaners.co.uk/services/dusting-vacuuming-mopping",
   },
   openGraph: {
     title: "Dusting, Vacuuming & Mopping Manchester | MZ Cleaners",
     description:
       "Complete surface and floor care for a cleaner, more comfortable home. Dusting, carpet and rug vacuuming, and careful mopping of hard flooring across Manchester.",
-    url: "https://www.mzcleaners.co.uk/services/dusting-vacuuming-mopping",
+    url: "https://mzcleaners.co.uk/services/dusting-vacuuming-mopping",
     siteName: "MZ Cleaners",
     images: [
       {

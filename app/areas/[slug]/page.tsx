@@ -29,11 +29,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const area = areas[slug] ?? areas.manchester;
   return {
-    title: `${area.name} Cleaning Services | Domestic & Commercial Cleaners - MZ Cleaners`,
+    title: `${area.name} Cleaning Services | MZ Cleaners`,
     description: `Professional cleaning services in ${area.name}. MZ Cleaners provides house cleaning, deep cleaning, end of tenancy cleaning and office cleaning across ${area.region}. Get a free quote.`,
     keywords: [`${area.name} cleaning services`, `cleaners in ${area.name}`, `house cleaning ${area.name}`, `deep cleaning ${area.name}`, `commercial cleaning ${area.name}`, `end of tenancy cleaning ${area.name}`],
-    alternates: { canonical: `https://www.mzcleaners.co.uk/areas/${slug}` },
-    openGraph: { title: `${area.name} Cleaning Services | MZ Cleaners`, description: `Reliable domestic and commercial cleaners serving ${area.region}.`, url: `https://www.mzcleaners.co.uk/areas/${slug}`, siteName: "MZ Cleaners", locale: "en_GB", type: "website" },
+    alternates: { canonical: `https://mzcleaners.co.uk/areas/${slug}` },
+    openGraph: { title: `${area.name} Cleaning Services | MZ Cleaners`, description: `Reliable domestic and commercial cleaners serving ${area.region}.`, url: `https://mzcleaners.co.uk/areas/${slug}`, siteName: "MZ Cleaners", locale: "en_GB", type: "website" },
   };
 }
 

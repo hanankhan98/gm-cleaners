@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Retail Shop Cleaning Manchester | Store and Premises Cleaners - MZ Cleaners",
+  title: "Retail Shop Cleaning Manchester | MZ Cleaners",
   description: "Professional retail shop cleaning in Manchester for shop floors, counters, changing rooms, staff areas, entrances, and customer toilets before opening or after closing.",
   keywords: ["retail shop cleaning Manchester", "shop cleaning service", "store cleaners Manchester", "retail premises cleaning", "commercial retail cleaners", "shop floor cleaning"],
-  alternates: { canonical: "https://www.mzcleaners.co.uk/services/retail-shop-cleaning" },
+  alternates: { canonical: "https://mzcleaners.co.uk/services/retail-shop-cleaning" },
   openGraph: {
     title: "Retail Shop Cleaning Manchester | MZ Cleaners",
     description: "Keep your retail premises welcoming and ready for customers with flexible cleaning before opening, after closing, or around your trading hours.",
-    url: "https://www.mzcleaners.co.uk/services/retail-shop-cleaning",
+    url: "https://mzcleaners.co.uk/services/retail-shop-cleaning",
     siteName: "MZ Cleaners",
     images: [{ url: "/services_page/for_your_busniess/Retail shop cleaning Manchester.jpg", width: 1200, height: 630, alt: "Retail shop cleaning service in Manchester" }],
     locale: "en_GB",

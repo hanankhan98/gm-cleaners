@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Kitchen Cleaning Manchester | Degreasing & Sanitising - MZ Cleaners",
+  title: "Kitchen Cleaning Manchester | MZ Cleaners",
   description:
     "Professional kitchen cleaning in Manchester. We degrease hobs, ovens, and extractor fans, and sanitise worktops, cupboards, sinks, and floors. Get a free quote today.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "professional kitchen cleaners",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/kitchen-cleaning",
+    canonical: "https://mzcleaners.co.uk/services/kitchen-cleaning",
   },
   openGraph: {
     title: "Kitchen Cleaning Manchester | MZ Cleaners",
     description:
       "Bring back the shine with detailed kitchen cleaning across Manchester. Worktops, appliances, cupboards, and floors, degreased and sanitised.",
-    url: "https://www.mzcleaners.co.uk/services/kitchen-cleaning",
+    url: "https://mzcleaners.co.uk/services/kitchen-cleaning",
     siteName: "MZ Cleaners",
     images: [
       {

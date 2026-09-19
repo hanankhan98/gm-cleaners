@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Laundry Service Manchester | Wash, Dry & Fold - MZ Cleaners",
+  title: "Laundry Service Manchester | MZ Cleaners",
   description:
     "Reliable laundry service in Manchester for clothing, towels, bedding, and household washing. We wash, dry, fold, and handle your laundry with care.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "professional laundry service",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/laundry-service",
+    canonical: "https://mzcleaners.co.uk/services/laundry-service",
   },
   openGraph: {
     title: "Laundry Service Manchester | MZ Cleaners",
     description:
       "Take laundry off your to-do list with a practical wash, dry, and fold service for Manchester homes and households.",
-    url: "https://www.mzcleaners.co.uk/services/laundry-service",
+    url: "https://mzcleaners.co.uk/services/laundry-service",
     siteName: "MZ Cleaners",
     images: [
       {

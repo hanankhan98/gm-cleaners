@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Commercial Premises Cleaning Manchester | MZ Cleaners",
   description: "Professional commercial premises cleaning in Manchester for warehouses, industrial units, business buildings, communal areas, and large workspaces.",
   keywords: ["commercial premises cleaning Manchester", "industrial cleaning Manchester", "warehouse cleaning service", "commercial building cleaners", "business premises cleaning", "large space cleaning Manchester"],
-  alternates: { canonical: "https://www.mzcleaners.co.uk/services/commercial-premises" },
+  alternates: { canonical: "https://mzcleaners.co.uk/services/commercial-premises" },
   openGraph: {
     title: "Commercial Premises Cleaning Manchester | MZ Cleaners",
     description: "Reliable cleaning for commercial buildings, warehouses, industrial units, and larger premises across Manchester and Greater Manchester.",
-    url: "https://www.mzcleaners.co.uk/services/commercial-premises",
+    url: "https://mzcleaners.co.uk/services/commercial-premises",
     siteName: "MZ Cleaners",
     images: [{ url: "/services_page/for_your_busniess/Commercial premises cleaning Manchester.jpg", width: 1200, height: 630, alt: "Commercial premises cleaning in Manchester" }],
     locale: "en_GB",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Regular House Cleaning Manchester | Weekly & Fortnightly Cleaners - MZ Cleaners",
+  title: "Regular House Cleaning Manchester | MZ Cleaners",
   description:
     "Professional regular house cleaning in Manchester. Weekly or fortnightly visits covering all rooms and living areas, built around your routine. Get a free quote today.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "reliable house cleaners Manchester",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/regular-house-cleaning",
+    canonical: "https://mzcleaners.co.uk/services/regular-house-cleaning",
   },
   openGraph: {
     title: "Regular House Cleaning Manchester | MZ Cleaners",
     description:
       "Keep your home fresh, comfortable, and consistently clean with a reliable weekly or fortnightly service across Manchester and Greater Manchester.",
-    url: "https://www.mzcleaners.co.uk/services/regular-house-cleaning",
+    url: "https://mzcleaners.co.uk/services/regular-house-cleaning",
     siteName: "MZ Cleaners",
     images: [
       {

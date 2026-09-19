@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Move-Out Cleaning Manchester | Handover-Ready Clean - MZ Cleaners",
+  title: "Move-Out Cleaning Manchester | MZ Cleaners",
   description:
     "Professional move-out cleaning in Manchester. A thorough, handover-ready clean covering every room for landlords, agents, and new occupants. Get a free quote today.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "professional move out cleaners",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/move-out-cleaning",
+    canonical: "https://mzcleaners.co.uk/services/move-out-cleaning",
   },
   openGraph: {
     title: "Move-Out Cleaning Manchester | MZ Cleaners",
     description:
       "Leave your property clean, presentable, and ready for its next inspection. Complete handover-ready cleaning across Manchester and Greater Manchester.",
-    url: "https://www.mzcleaners.co.uk/services/move-out-cleaning",
+    url: "https://mzcleaners.co.uk/services/move-out-cleaning",
     siteName: "MZ Cleaners",
     images: [
       {
