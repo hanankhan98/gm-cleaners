@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Office Cleaning Manchester | Professional Workplace Cleaners - MZ Cleaners",
+  title: "Office Cleaning Manchester | MZ Cleaners",
   description: "Reliable office cleaning in Manchester for desks, floors, kitchens, toilets, meeting rooms, and reception areas. Flexible daily, weekly, and after-hours cleaning.",
   keywords: ["office cleaning Manchester", "commercial office cleaners", "workplace cleaning Manchester", "daily office cleaning", "after-hours office cleaning", "professional office cleaners"],
-  alternates: { canonical: "https://www.mzcleaners.co.uk/services/office-cleaning" },
+  alternates: { canonical: "https://mzcleaners.co.uk/services/office-cleaning" },
   openGraph: {
     title: "Office Cleaning Manchester | MZ Cleaners",
     description: "Keep your Manchester workplace clean, presentable, and ready for staff and visitors with a flexible professional office cleaning service.",
-    url: "https://www.mzcleaners.co.uk/services/office-cleaning",
+    url: "https://mzcleaners.co.uk/services/office-cleaning",
     siteName: "MZ Cleaners",
     images: [{ url: "/services_page/for_your_busniess/Office cleaning Manchester.jpg", width: 1200, height: 630, alt: "Professional office cleaning service in Manchester" }],
     locale: "en_GB",

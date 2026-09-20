@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "End of Tenancy Cleaning Manchester | Deposit-Back Clean - MZ Cleaners",
+  title: "End of Tenancy Cleaning Manchester | MZ Cleaners",
   description:
     "Professional end of tenancy cleaning in Manchester. A landlord-ready clean covering kitchens, bathrooms, floors, and built-in areas to help secure your deposit. Get a free quote today.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "rental property cleaning Manchester",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/end-of-tenancy-cleaning",
+    canonical: "https://mzcleaners.co.uk/services/end-of-tenancy-cleaning",
   },
   openGraph: {
     title: "End of Tenancy Cleaning Manchester | MZ Cleaners",
     description:
       "A detailed, landlord-ready clean designed to help you leave your rental in excellent condition and secure your deposit back, across Manchester.",
-    url: "https://www.mzcleaners.co.uk/services/end-of-tenancy-cleaning",
+    url: "https://mzcleaners.co.uk/services/end-of-tenancy-cleaning",
     siteName: "MZ Cleaners",
     images: [
       {

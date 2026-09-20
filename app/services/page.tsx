@@ -131,8 +131,8 @@ export default function ServicesPage() {
         />
         
         {/* Bubble Images */}
-        <img 
-          src="/serviece_hero_buttlbe.png" 
+        <Image
+          src="/service_hero_bubbles.png" 
           alt="Bubbles" 
           className="absolute top-1/2 left-0 w-full h-auto -translate-y-1/2 pointer-events-none z-[5]"
         />

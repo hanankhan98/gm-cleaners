@@ -5,11 +5,11 @@ export const metadata: Metadata = {
   title: "Weekly and Monthly Cleaning Contracts Manchester | MZ Cleaners",
   description: "Flexible weekly and monthly commercial cleaning contracts in Manchester for offices, shops, premises, kitchens, toilets, floors, and shared business areas.",
   keywords: ["weekly commercial cleaning Manchester", "monthly cleaning contract", "flexible office cleaning contract", "business cleaning plans", "commercial cleaning schedule", "regular workplace cleaners"],
-  alternates: { canonical: "https://www.mzcleaners.co.uk/services/weekly-monthly-contracts" },
+  alternates: { canonical: "https://mzcleaners.co.uk/services/weekly-monthly-contracts" },
   openGraph: {
     title: "Weekly and Monthly Cleaning Contracts Manchester | MZ Cleaners",
     description: "Flexible commercial cleaning plans with a frequency and checklist that fit your business, premises, and budget.",
-    url: "https://www.mzcleaners.co.uk/services/weekly-monthly-contracts",
+    url: "https://mzcleaners.co.uk/services/weekly-monthly-contracts",
     siteName: "MZ Cleaners",
     images: [{ url: "/services_page/for_your_busniess/Weekly monthly cleaning contract Manchester.jpg", width: 1200, height: 630, alt: "Weekly and monthly commercial cleaning contract in Manchester" }],
     locale: "en_GB",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Bathroom Cleaning Manchester | Deep Clean & Limescale Removal - MZ Cleaners",
+  title: "Bathroom Cleaning Manchester | MZ Cleaners",
   description:
     "Professional bathroom cleaning in Manchester. We remove limescale, scrub grout, and sanitise baths, showers, toilets & sinks for a hygienic, sparkling finish. Get a free quote today.",
   keywords: [
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "shower and toilet sanitising",
   ],
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/services/bathroom-cleaning",
+    canonical: "https://mzcleaners.co.uk/services/bathroom-cleaning",
   },
   openGraph: {
     title: "Bathroom Cleaning Manchester | MZ Cleaners",
     description:
       "Hygienic, sparkling bathrooms every time. Limescale removal, grout scrubbing, and full sanitising of baths, showers, toilets and sinks across Manchester.",
-    url: "https://www.mzcleaners.co.uk/services/bathroom-cleaning",
+    url: "https://mzcleaners.co.uk/services/bathroom-cleaning",
     siteName: "MZ Cleaners",
     images: [
       {
