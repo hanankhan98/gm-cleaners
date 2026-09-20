@@ -3,7 +3,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
   title: "Retail Shop Cleaning Manchester | MZ Cleaners",
-  description: "Professional retail shop cleaning in Manchester for shop floors, counters, changing rooms, staff areas, entrances, and customer toilets before opening or after closing.",
+  description: "Expert retail shop cleaning in Manchester. Keep your store pristine with our thorough cleans for shop floors, counters, and staff areas. Book today!",
   keywords: ["retail shop cleaning Manchester", "shop cleaning service", "store cleaners Manchester", "retail premises cleaning", "commercial retail cleaners", "shop floor cleaning"],
   alternates: { canonical: "https://mzcleaners.co.uk/services/retail-shop-cleaning" },
   openGraph: {

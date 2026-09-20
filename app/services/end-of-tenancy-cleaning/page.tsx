@@ -4,7 +4,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "End of Tenancy Cleaning Manchester | MZ Cleaners",
   description:
-    "Professional end of tenancy cleaning in Manchester. A landlord-ready clean covering kitchens, bathrooms, floors, and built-in areas to help secure your deposit. Get a free quote today.",
+    "Professional end of tenancy cleaning in Manchester. Secure your deposit with a landlord-ready clean of kitchens, bathrooms, and floors. Get a quote!",
   keywords: [
     "end of tenancy cleaning Manchester",
     "move out cleaning service",

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
-  title: "Weekly and Monthly Cleaning Contracts Manchester | MZ Cleaners",
+  title: "Weekly and Monthly Cleaning Contracts Manchester",
   description: "Flexible weekly and monthly commercial cleaning contracts in Manchester for offices, shops, premises, kitchens, toilets, floors, and shared business areas.",
   keywords: ["weekly commercial cleaning Manchester", "monthly cleaning contract", "flexible office cleaning contract", "business cleaning plans", "commercial cleaning schedule", "regular workplace cleaners"],
   alternates: { canonical: "https://mzcleaners.co.uk/services/weekly-monthly-contracts" },

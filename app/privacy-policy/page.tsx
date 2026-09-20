@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   title: "Privacy Policy | MZ Cleaners Manchester",
   description: "Read the Privacy Policy of MZ Cleaners. Learn how we collect, use, and protect your personal data when you use our cleaning services in Manchester.",
   alternates: {
-    canonical: "https://www.mzcleaners.co.uk/privacy-policy",
+    canonical: "https://mzcleaners.co.uk/privacy-policy",
   },
 };
 
