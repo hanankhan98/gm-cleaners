@@ -4,7 +4,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Kitchen Cleaning Manchester | MZ Cleaners",
   description:
-    "Professional kitchen cleaning in Manchester. We degrease hobs, ovens, and extractor fans, and sanitise worktops, cupboards, sinks, and floors. Get a free quote today.",
+    "Professional kitchen cleaning in Manchester. We degrease hobs and ovens, and sanitise worktops, sinks, and floors. Get a free quote today!",
   keywords: [
     "kitchen cleaning Manchester",
     "kitchen deep clean Manchester",

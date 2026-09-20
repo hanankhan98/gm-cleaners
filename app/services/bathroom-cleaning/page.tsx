@@ -4,7 +4,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Bathroom Cleaning Manchester | MZ Cleaners",
   description:
-    "Professional bathroom cleaning in Manchester. We remove limescale, scrub grout, and sanitise baths, showers, toilets & sinks for a hygienic, sparkling finish. Get a free quote today.",
+    "Professional bathroom cleaning in Manchester. We remove limescale, scrub grout, and sanitise baths, showers, toilets, and sinks. Get a free quote today!",
   keywords: [
     "bathroom cleaning Manchester",
     "bathroom deep clean Manchester",

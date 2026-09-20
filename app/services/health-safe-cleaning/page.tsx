@@ -3,7 +3,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 
 export const metadata: Metadata = {
   title: "Health Safe Cleaning Manchester | MZ Cleaners",
-  description: "Health safe workplace cleaning in Manchester focused on desks, chairs, handles, switches, phones, keyboards, kitchens, toilets, and other high-touch surfaces.",
+  description: "Health-safe workplace cleaning in Manchester. We sanitise desks, handles, switches, kitchens, toilets, and other high-touch surfaces. Get a quote!",
   keywords: ["health safe cleaning Manchester", "workplace sanitisation", "office sanitisation Manchester", "high touch surface cleaning", "commercial hygiene cleaning", "business sanitisation service"],
   alternates: { canonical: "https://mzcleaners.co.uk/services/health-safe-cleaning" },
   openGraph: {

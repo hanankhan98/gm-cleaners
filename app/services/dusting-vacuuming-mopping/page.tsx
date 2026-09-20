@@ -4,7 +4,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Dusting, Vacuuming & Mopping Manchester | MZ Cleaners",
   description:
-    "Professional dusting, vacuuming, and mopping service in Manchester. We refresh surfaces, carpets, rugs, and hard flooring throughout your home. Get a free quote today.",
+    "Professional dusting, vacuuming, and mopping in Manchester. We refresh surfaces, carpets, and hard floors throughout your home. Get a free quote today!",
   keywords: [
     "dusting vacuuming mopping Manchester",
     "floor cleaning service Manchester",

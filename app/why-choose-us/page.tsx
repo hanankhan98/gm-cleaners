@@ -9,7 +9,7 @@ import OurGuaranteeSection from "@/components/why-choose-us/OurGuaranteeSection"
 
 export const metadata = {
   title: "Why Manchester Residents & Businesses Choose MZ Cleaners",
-  description: "Discover why Manchester residents and businesses choose MZ Cleaners: fully insured commercial cleaning, DBS checked cleaners, flexible contracts, local rates, and a 20% CitySuites Aparthotel welcome offer.",
+  description: "Discover why Manchester chooses MZ Cleaners. We offer fully insured, DBS-checked cleaners and a 20% CitySuites welcome offer. Get a quote!",
   keywords: [
     "DBS checked cleaners Manchester",
     "fully insured commercial cleaning",

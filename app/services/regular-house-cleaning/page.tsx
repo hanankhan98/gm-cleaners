@@ -4,7 +4,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Regular House Cleaning Manchester | MZ Cleaners",
   description:
-    "Professional regular house cleaning in Manchester. Weekly or fortnightly visits covering all rooms and living areas, built around your routine. Get a free quote today.",
+    "Professional regular house cleaning in Manchester. Weekly or fortnightly visits covering all rooms, built around your routine. Get a free quote!",
   keywords: [
     "regular house cleaning Manchester",
     "weekly cleaning service Manchester",

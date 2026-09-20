@@ -4,7 +4,7 @@ import ServiceDetailPage from "@/components/services/ServiceDetailPage";
 export const metadata: Metadata = {
   title: "Move-Out Cleaning Manchester | MZ Cleaners",
   description:
-    "Professional move-out cleaning in Manchester. A thorough, handover-ready clean covering every room for landlords, agents, and new occupants. Get a free quote today.",
+    "Book professional move-out cleaning in Manchester. We provide thorough, handover-ready cleans for landlords and tenants. Get a free quote today.",
   keywords: [
     "move out cleaning Manchester",
     "handover clean Manchester",

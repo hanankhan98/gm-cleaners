@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Deep Cleaning Manchester | MZ Cleaners",
     description:
-      "A thorough top-to-bottom clean for the areas everyday cleaning misses. Corners, skirting boards, grout lines, cupboards, and behind appliances, all handled across Manchester.",
+      "Professional deep cleaning in Manchester. We tackle skirting boards, grout, and cupboards for a thorough reset. Get a free quote today.",
     url: "https://mzcleaners.co.uk/services/deep-cleaning",
     siteName: "MZ Cleaners",
     images: [
