@@ -42,7 +42,7 @@ const navItems = [
   { label: "Gallery" },
   { label: "Reviews" },
   { label: "Contact" },
-  { label: "Blog", href: "/blog/top-neighbourhoods-for-renters-manchester" },
+  { label: "Blog", href: "/blog" },
 ];
 
 export default function Header() {
