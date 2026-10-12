@@ -22,6 +22,13 @@ export const metadata: Metadata = {
 // Newest first. Add each new post here, and to public/sitemap.xml.
 const posts = [
   {
+    href: "/blog/get-your-deposit-back-manchester",
+    category: "Moving & Local Guides",
+    title: "How to Get Your Full Deposit Back in Manchester: A Renter's Guide",
+    excerpt:
+      "How the DPS, TDS and mydeposits schemes protect you, the most common reasons for deductions, and how a proper end of tenancy clean helps.",
+  },
+  {
     href: "/blog/office-cleaning-checklist-manchester",
     category: "Business & Office Guides",
     title: "Office Cleaning Manchester: The Complete Checklist for Local Businesses",
